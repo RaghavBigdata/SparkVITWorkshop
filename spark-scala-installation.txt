@@ -1,0 +1,34 @@
+Scala Installation :
+1.Scala Installation links :
+http://www.scala-lang.org/download/all.html
+wget http://www.scala-lang.org/files/archive/scala-2.10.6.tgz
+2.tar -xvf scala-2.10.6.tgz
+3.sudo mv scala-2.10.6 /opt/scala2.10
+4.gedit ~/.bashrc
+5.Update environment variables
+export SCALA_HOME=/opt/scala2.10/
+export PATH=$PATH:/opt/scala2.10/bin
+6.source ~/.bashrc
+7.Test installation : scala -version
+
+
+Spark Installation :
+1.Spark Installation links :
+wget http://www.apache.org/dyn/closer.lua/spark/spark-1.6.2/spark-1.6.2.tgz
+http://spark.apache.org/downloads.html
+http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-hadoop2.6.tgz
+2.tar -xvf spark-1.6.2.tgz
+3.sudo mv spark-1.6.2 /opt/spark1.6.2
+4.gedit ~/.bashrc
+5.Update environment variables
+export SPARK_HOME=/opt/spark1.6.2/
+export PATH=$SPARK_HOME/bin:$PATH
+6.source ~/.bashrc
+
+JDK installation :
+1.http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+2.gedit ~/.bashrc
+3.Update environment variables
+export JAVA_HOME=/usr/local/jdk1.7.0_13
+export PATH=$PATH:$JAVA_HOME/bin
+4.source ~/.bashrc
